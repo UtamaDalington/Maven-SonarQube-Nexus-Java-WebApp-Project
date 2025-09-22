@@ -1,5 +1,5 @@
 # E-Commerce WebApp Development Environmnt Project
-![DevelopmentEnvironmentSetupProject!](https://lucid.app/lucidchart/a4fe2dc7-2473-43dc-a70f-7e2c9004007b/view)
+![DevelopmentEnvironmentSetupProject!](https://lucid.app/publicSegments/view/23c44d21-999a-4961-a704-2d7627b21ffd/image.png)
 
 ###### Project ToolBox 🧰
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
