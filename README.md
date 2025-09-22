@@ -14,39 +14,31 @@
     - Navigate to https://github.com
     - Click on Repositories
     - Click on `Create` to Create a Repository
-     - Repository Name: maven-sonarqube-nexus-project
-     - Click on `Create`
-     - Download the Project Zip from https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Java-WebApp-Project
-     - Unzip and Push the code to the Repository you just provisioned
+    - Repository Name: maven-sonarqube-nexus-project
+    - Click on `Create`
+    - Download the Project Zip from https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Java-WebApp-Project
+    - Unzip and Push the code to the Repository you just provisioned
 
-2) SonarQube
-    - Create an Ubuntu 20.04 VM instance and call it "SonarQube"
-    - Instance type: t2.medium
-    - Security Group (Open): 9000 and 22 to 0.0.0.0/0
-    - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/sonarqube-install.sh
-    - Launch Instance
-
-3) Maven
-    - Create an Amazon Linux 2 VM instance and call it "jenkins-maven-ansible"
-    - Instance type: t2.micro
+2) Maven
+    - Create an Amazon Linux 2023 VM instance and call it "jenkins-maven-ansible"
+    - Instance type: t2.micro or t3.micro (2 vCPU and 1 GiB Memory)
     - Security Group (Open): 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/maven-install.md
     - Launch Instance
 
-4) Nexus
-    - Create an Amazon Linux 2 VM instance and call it "Nexus"
-    - Instance type: t2.medium
-    - Security Group (Open): 8081 and 22 to 0.0.0.0/0
+3) SonarQube
+    - Create an Ubuntu 24.04 VM instance and call it "SonarQube"
+    - Instance type: c7i-flex.large (2 vCPU and 4 GiB Memory)
+    - Security Group (Open): 9000 and 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/nexus-install.sh
+    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/sonarqube-install.sh
     - Launch Instance
 
-5) Nexus
+4) Nexus
     - Create an Ubuntu 24.04 VM instance and call it "Nexus"
-    - Instance type: t2.medium
-    - Security Group (Open): 8081 and 22 to 0.0.0.0/0
+    - Instance type: m7i-flex.large (2 vCPU and 8 GiB Memory)
+    - Security Group (Open): 8081 and 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/nexus-install-t2large.sh
     - Launch Instance
