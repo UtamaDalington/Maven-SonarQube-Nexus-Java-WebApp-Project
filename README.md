@@ -20,8 +20,8 @@
     - Unzip and Push the code to the Repository you just provisioned
 
 2) Maven
-    - Create an Amazon Linux 2023 VM instance and call it "jenkins-maven-ansible"
-    - Instance type: t2.micro or t3.micro (2 vCPU and 1 GiB Memory)
+    - Create an Ubuntu 24.04 VM instance and call it "jenkins-maven-ansible"
+    - Instance type: t3.micro (2 vCPU and 1 GiB Memory)
     - Security Group (Open): 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/maven-install.md
