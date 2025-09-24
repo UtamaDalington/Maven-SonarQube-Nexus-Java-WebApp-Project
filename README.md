@@ -20,11 +20,11 @@
     - Unzip and Push the code to the Repository you just provisioned
 
 2) Maven
-    - Create an Ubuntu 24.04 VM instance and call it "jenkins-maven-ansible"
+    - Create an Ubuntu 24.04 VM instance and call it "Apache-Maven"
     - Instance type: t3.micro (2 vCPU and 1 GiB Memory)
     - Security Group (Open): 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/maven-install.md
+    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/maven-ubuntu-install.md
     - Launch Instance
 
 3) SonarQube
@@ -72,3 +72,7 @@ Publishing artifact to Nexus snapshot and release repo using maven.
 
 ## Maven Lifecycle Phases
 - https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases
+
+![CodePackageDeployStore!](https://drive.google.com/file/d/1ccQhqRPu2KtWVnpU3p8sj6zKsfqxpd6f/view?usp=sharing)
+![SonarQubeResult!](https://drive.google.com/file/d/1PIkXyfViHxEcW9p5JNa8GSlSkasP2XHI/view?usp=sharing)
+![NexusResult!](https://drive.google.com/file/d/1k_sdRgPIpbvSbl-g2hWfZROHdV7vG0pH/view?usp=sharing)
