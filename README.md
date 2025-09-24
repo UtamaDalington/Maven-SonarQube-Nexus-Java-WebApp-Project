@@ -73,6 +73,6 @@ Publishing artifact to Nexus snapshot and release repo using maven.
 ## Maven Lifecycle Phases
 - https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases
 
-![CodePackageDeployStore!](https://drive.google.com/file/d/1ccQhqRPu2KtWVnpU3p8sj6zKsfqxpd6f/view?usp=sharing)
-![SonarQubeResult!](https://drive.google.com/file/d/1PIkXyfViHxEcW9p5JNa8GSlSkasP2XHI/view?usp=sharing)
-![NexusResult!](https://drive.google.com/file/d/1k_sdRgPIpbvSbl-g2hWfZROHdV7vG0pH/view?usp=sharing)
+![CodePackageDeployStore!](https://miro.medium.com/v2/resize:fit:720/format:webp/1*S0_pDFdIXhUSUT4ZrqOk2A.jpeg)
+![SonarQubeResult!](https://miro.medium.com/v2/resize:fit:720/format:webp/1*iOLYUu7HPQrVjapQSdSd8g.jpeg)
+![NexusResult!](https://miro.medium.com/v2/resize:fit:720/format:webp/1*AlU4cEG81QcvtL5mh4Hwww.jpeg)
