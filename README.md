@@ -1,4 +1,4 @@
-# E-Commerce WebApp Development Environmnt Project
+# E-Commerce WebApp Development Environment Project
 ![DevelopmentEnvironmentSetupProject!](https://lucid.app/publicSegments/view/23c44d21-999a-4961-a704-2d7627b21ffd/image.png)
 
 ###### Project ToolBox 🧰
